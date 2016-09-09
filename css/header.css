@@ -1,0 +1,87 @@
+header {
+    background-color: #373740;
+}
+
+fieldset {
+    display: inline;
+}
+
+.logoAndSearch {
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.mainLogo {
+    display: inline;
+}
+
+.mainLogo a {
+    display: inline;
+    margin-top: -5px;
+}
+
+.mainLogo a img {
+    display: inline-block;
+}
+
+.maintitle a {
+    display: inline;
+    color: #48E50C;
+    font-size: 24px;
+}
+
+.searchEngine {
+    display: inline;
+    vertical-align: middle;
+}
+
+#baseSearchForm {
+    display: inline;
+}
+
+.searchEngine .input_text {
+    border: solid 3px #48E50C;
+    background-color: #373740;
+    width: 150px;
+    padding: 2px;
+    margin-bottom: 2px;
+    margin-top: -2px;
+}
+
+.searchEngine btn {
+    margin-top: -2px;
+    display: inline-block;
+}
+
+.loginBox {
+    display: inline;
+    float: right;
+}
+
+.headerNav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: #2D2D34;
+}
+
+.headerNav ul {
+    display: inline;
+}
+
+.headerNav ul li {
+    border-right: 1px solid #8C8C8C;
+    display: inline;
+    padding: 5px 15px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.headerNav a {
+    color: #8C8C8C;
+    text-decoration: none;
+}
+
+.headerNav a:active {
+    color: #fff;
+}

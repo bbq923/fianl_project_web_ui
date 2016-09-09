@@ -1,0 +1,118 @@
+section h2 {
+    margin-left: 20px;
+    padding: 15px 100px 13px 150px;
+    font-size: 24px;
+}
+
+.card_rolling_wrap {
+    background-color: #EDEDF0;
+    padding-top: 20px;
+    border-bottom: solid 1px #C4C4CB;
+    height: 350px;
+}
+
+.carouselContent {
+    overflow: hidden;
+    height: 350px;
+}
+
+.carouselList {
+    width: 2400px;
+}
+
+.carousellitag {
+    display: inline-block;
+    width: 1040px;
+}
+
+.sectionNav {
+    border-top: solid 3px #2D333C;
+    border-bottom: solid 1px #A3A1B3;
+    padding: 20px 80px;
+}
+
+.sectionNav ul {
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sectionNav ul li {
+    display: inline;
+    border-right: solid 1px #A3A1B3;
+    padding: 20px 50px;
+}
+
+.sectionNav ul li:hover {
+    background-color: #2395CD;
+    color: white;
+}
+
+.sectionNav ul li a {
+    text-decoration: none;
+}
+
+.rolling_title h3 {
+    display: inline;
+    padding: 20px 0px 20px 30px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.rolling_title span {
+    font-size: 12px;
+    color: #5F5F60;
+}
+
+.cardBox {
+    display: inline-block;
+    height: 100%;
+    margin: 10px 0px 20px 30px;
+    background-color: white;
+}
+
+.cardBox img {
+    width: 220px;
+    height: 160px;
+}
+
+.cardBoxContent {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: -5px;
+    width: 180px;
+}
+
+.cardBoxContent h4 {
+    padding: 12px 7px;
+    color: #16B0F0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cardBoxContent h5 {
+    font-size: 9px;
+    padding: 7px 3px 0px;
+}
+
+.carouselLeftBtn {
+    position: absolute;
+    top: 330px;
+    left: 167px;
+    z-index: 9990;
+    cursor: pointer;
+}
+
+.carouselRightBtn {
+    position: absolute;
+    top: 330px;
+    left: 1188px;
+    z-index: 9990;
+    cursor: pointer;
+}
+
+.carouselLeftBtn, .carouselRightBtn {
+    font-size: 60px;
+    text-shadow: -1px 0 #2D2D34, 0 1px #2D2D34, 1px 0 #2D2D34, 0 -1px #2D2D34;
+    color: #FFFEFF;
+}

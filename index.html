@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/side_nav.css">
+    <link rel="stylesheet" href="css/top_section.css">
+    <link rel="stylesheet" href="css/bottom_section.css">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <title>: 네이버 뮤직</title>
+</head>
+
+<body>
+    <header>
+        <div class="logoAndSearch">
+            <div class="mainLogo">
+                <a href="www.naver.com">
+                    <img src="/image/naver_music_logo.png" alt="네이버 뮤직 로고">
+                </a>
+            </div>
+            <div class="searchEngine">
+                <form action="" name="search" id="baseSearchForm">
+                    <fieldset>
+                        <input type="text" class="input_text" name="query" title="검색어 입력" value maxlength="50" accesskey="s" autocomplete="off">
+                        <input type="image" src="/image/btn_search.gif" width="39" height="26" class="btn" alt="검색">
+                        <input type="image" src="/image/btn_united_search.gif" width="57" height="26" class="btn" alt="통합검색">
+                    </fieldset>
+                </form>
+            </div>
+            <div class="loginBox">
+                <button class="loginBtn">로그인</button> <span><i class="fa fa-th"></i></span>
+            </div>
+        </div>
+        <nav class="headerNav">
+            <ul>
+                <li><a href="#">뮤직 홈</a></li>
+                <li><a href="#">마이 뮤직</a></li>
+                <li><a href="#">오늘의 뮤직</a></li>
+                <li><a href="#">뮤지션 리그</a></li>
+                <li><a href="#">온스테이지</a></li>
+                <li><a href="#">이용권 구매</a></li>
+                <li><a href="#">HD 음원</a></li>
+                <li><a href="#">라디오</a></li>
+            </ul>
+            <img src="http://music.phinf.naver.net/20160729_87/146978578086394D9Y_PNG/0729_gnb.png" width="190" height="33" alt="NEW 네이버뮤직의 새로운 요금제">
+        </nav>
+    </header>
+    <nav class="sideNav">
+        <div class="musicPlayerBtn">
+            <a href="#">
+                <img src="/image/btn_music_player.png">
+            </a>
+        </div>
+        <h4>음악 감상</h4>
+        <ul class="musicList" id="music-list">
+            <li class="navigator"><i class="fa fa-bar-chart"></i><a href=""> TOP 100</a></li>
+                <ul class="detailList">
+                    <li><a href="#">종합</a></li>
+                    <li><a href="#">국내</a></li>
+                    <li><a href="#">해외</a></li>
+                    <li><a href="#">뮤지션리그</a></li>
+                    <li><a href="#">차트 히스토리</a></li>
+                </ul>
+            <li class="navigator"><i class="fa fa-music"></i><a href="#"> 최신앨범</a></li>
+                <ul class="detailList">
+                    <li><a href="#">국내</a></li>
+                    <li><a href="#">해외</a></li>
+                </ul>
+            <li class="navigator"><i class="fa fa-music"></i><a href="#"> 최신곡</a></li>
+                <ul class="detailList">
+                    <li><a href="#">국내</a></li>
+                    <li><a href="#">해외</a></li>
+                </ul>
+            <li class="navigator"><i class="fa fa-music"></i><a href="#"> 국내음악</a></li>
+                <ul class="detailList">
+                    <li><a href="#">발라드</a></li>
+                    <li><a href="#">댄스</a></li>
+                    <li><a href="#">힙합</a></li>
+                    <li><a href="#">록/포크</a></li>
+                    <li><a href="#">트로트</a></li>
+                </ul>
+            <li class="navigator"><i class="fa fa-music"></i><a href="#"> 해외음악</a></li>
+                <ul class="detailList">
+                    <li><a href="#">POP</a></li>
+                    <li><a href="#">ROCK/FOLK</a></li>
+                    <li><a href="#">HIP-HOP</a></li>
+                    <li><a href="#">R&B</a></li>
+                    <li><a href="#">ELECTRONICA</a></li>
+                    <li><a href="">J-POP</a></li>
+                    <li><a href="">WORLD MUSIC</a></li>
+                </ul>
+            <li class="navigator"><i class="fa fa-music"></i><a href="#"> 기타장르</a></li>
+                <ul class="detailList">
+                    <li><a href="#">재즈/뉴에이지</a></li>
+                    <li><a href="#">클래식</a></li>
+                    <li><a href="#">OST</a></li>
+                    <li><a href="#">CCM</a></li>
+                    <li><a href="#">그 외</a></li>
+                </ul>
+            <li class="navigator"><i class="fa fa-video-camera"></i><a href="#"> 뮤직비디오</a></li>
+                <ul class="detailList">
+                    <li><a href="#">국내</a></li>
+                    <li><a href="#">해외</a></li>
+                </ul>
+        </ul>
+    </nav>
+    <section>
+        <h2>오늘의 뮤직</h2>
+        <nav class="sectionNav">
+            <ul>
+                <li>
+                    <a href="#" class="tab_text_link ">오늘의 뮤직 홈</a>
+                </li>
+                <li>
+                    <a href="#" class="tab_text_link ">스페셜</a>
+                </li>
+                <li>
+                    <a href="#" class="tab_text_link ">매거진</a>
+                </li>
+                <li>
+                    <a href="#" class="tab_text_link ">이벤트</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="todaymusic_section .todaymusic_main">
+            <div class="card_rolling_wrap ">
+                <div class="rolling_container ">
+                    <div class="rolling_title ">
+                        <h3>HOT & NEW</h3><span>(8)</span>
+                    </div>
+                    <div class="carouselLeftBtn " id="carousel-left-btn">
+                        <i class="fa fa-angle-left "></i>
+                    </div>
+                    <div class="carouselRightBtn " id="carousel-right-btn">
+                        <i class="fa fa-angle-right "></i>
+                    </div>
+                    <div class="carouselContent ">
+                        <ul class="carouselList ">
+                            <li class="carousellitag " id="carouselLeft">
+                                <ul class="carousel ">
+                                    <li class="cardBox ">
+                                        <img src="/image/carousel_img1.jpg " alt="2016 조이 올팍 페스티벌 ">
+                                        <div class="cardBoxContent ">
+                                            <h4>스페셜</h4>
+                                            <h5>[공연 초대] 2016조이올팍페스티벌</h5>
+                                        </div>
+                                    </li>
+                                    <li class="cardBox ">
+                                        <img src="/image/carousel_img2.jpg " alt="렛츠락 페스티벌 최종라인업 ">
+                                        <div class="cardBoxContent ">
+                                            <h4>스페셜</h4>
+                                            <h5>[공연 초대] 렛츠락 페스티벌 최종 라인업</h5>
+                                        </div>
+                                    </li>
+                                    <li class="cardBox ">
+                                        <img src="/image/carousel_img3.jpg " alt="패션과 음악을 한자리에서 ">
+                                        <div class="cardBoxContent ">
+                                            <h4>스페셜</h4>
+                                            <h5>[공연 초대] 패션과 음악을 한자리에서</h5>
+                                        </div>
+                                    </li>
+                                    <li class="cardBox ">
+                                        <img src="/image/carousel_img4.jpg " alt="세기의 거장 플라시도 도밍고 ">
+                                        <div class="cardBoxContent ">
+                                            <h4>스페셜</h4>
+                                            <h5>[공연 초대] 세기의 거장 플라시도 도밍고</h5>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="carousellitag ">
+                                <ul class="carousel ">
+                                    <li class="cardBox ">
+                                        <img src="/image/carousel_img5.jpg " alt="Of Montreal 외 7매 ">
+                                        <div class="cardBoxContent ">
+                                            <h4>이주의 발견-해외</h4>
+                                            <h5>Of Montreal 외 7매</h5>
+                                        </div>
+                                    </li>
+                                    <li class="cardBox ">
+                                        <img src="/image/carousel_img6.jpg " alt="임인건 외 5매 ">
+                                        <div class="cardBoxContent ">
+                                            <h4>이주의 발견-국내</h4>
+                                            <h5>임인건 외 5매</h5>
+                                        </div>
+                                    </li>
+                                    <li class="cardBox ">
+                                        <img src="/image/carousel_img7.jpg " alt="홀로서기의 완성, 타린 ">
+                                        <div class="cardBoxContent ">
+                                            <h4>뮤지션리그 스페셜</h4>
+                                            <h5>홀로서기의 완성, 타린</h5>
+                                        </div>
+                                    </li>
+                                    <li class="cardBox ">
+                                        <img src="/image/carousel_img8.jpg " alt="라이브 클럽 데이 ">
+                                        <div class="cardBoxContent ">
+                                            <h4>스페셜</h4>
+                                            <h5>[V LIVE 다시보기] 라이브 클럽 데이 Vol.19</h5>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="carouselNav ">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bottomSection">
+            <div class="bottomTitle">
+                <h3>스페셜 <span>(2865)</span></h3>
+                <span class="moreBtn">스페셜 더보기</span>
+            </div>
+            <div class="listBox">
+                <img src="/image/bottom_section_img1.jpg" alt="EDM 페스티벌">
+                <div class="listBoxContent">
+                    <h4>스페셜</h4>
+                    <h5>[공연 초대]스펙트럼 댄스 뮤직! 초대형 EDM 페스티벌</h5>
+                    <p>
+                        다양한 댄스음악 총망라! 최강 라인업을 선보인 스펙트럼 댄스 뮤직 페스티벌이 2016년 10월 1일(토)~2일(일) 양일간 개
+                        최됩니다. 주요 아티스트의 추천 트랙과 함께 진정한 "스펙트럼"의 세계를 만나보세요!
+                    </p>
+                </div>
+            </div>
+            <div class="listBox">
+                <img src="/image/bottom_section_img2.jpg" alt="2016 조이올팍페스티벌">
+                <div class="listBoxContent">
+                    <h4>스페셜</h4>
+                    <h5>[공연 초대]도심으로 떠나는 가을 바캉스 [2016 조이올팍페스티벌]</h5>
+                    <p>
+                        어서오세요! 꿈이 깨진 시대, 불확실한 세상과 현실, 불안한 미래를 살아가는 우리를 토닥토닥 위로하고, 공감하며, 지친 일
+                        상에서 깨워주고자 태어난 착한 페스티벌, [조이올팍페스티벌]입니다. [2016 조이올팍페스티벌]로 올가을 바캉스 떠나볼까요~?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="/js/carousel.js"></script>
+    <script src="/js/sidenav.js"></script>
+</body>
+
+</html>

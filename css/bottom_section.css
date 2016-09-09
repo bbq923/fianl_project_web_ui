@@ -1,0 +1,56 @@
+.bottomTitle {
+    margin: 20px;
+}
+
+.bottomTitle h3 {
+    display: inline;
+    font-size: 20px;
+    margin: 30px;
+    font-weight: bolder;
+}
+
+.bottomTitle span {
+    color: #9B9B9C;
+    font-size: 12px;
+}
+
+.moreBtn {
+    float: right;
+    color: #ADADAD;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.listBox {
+    width: 750px;
+    height: 140px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.listBox img {
+    float: left;
+    margin: 0px 10px 10px 10px;
+    width: 220px;
+    height: 130px;
+}
+
+.listBoxContent h4 {
+    font-weight: bolder;
+    font-size: 14px;
+    color: #16B0F0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.listBoxContent h5 {
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.listBoxContent p {
+    font-size: 13px;
+    color: #ADADAD;
+    letter-spacing: 0.2px;
+}

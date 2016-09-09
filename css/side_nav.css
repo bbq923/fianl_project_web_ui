@@ -1,0 +1,44 @@
+.sideNav {
+    float: left;
+    padding-left: 0px;
+    padding-bottom: 800px;
+    border-right: solid 1px gray;
+    background-color: #F1F1F5;
+    z-index: 9999;
+}
+
+.sideNav ul li {
+    margin: 4px 4px;
+}
+
+.sideNav h4 {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+._music_category {
+    margin-top: 10px;
+}
+
+.detailList {
+    display: none;
+    margin-left: 20px;
+    list-style-type: circle;
+    font-size: 12px;
+}
+
+.navigator a {
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.detailList li a {
+    text-decoration: none;
+}
+
+.musicPlayerBtn {
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
